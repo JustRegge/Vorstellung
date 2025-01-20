@@ -22,6 +22,11 @@
             transform: translateY(50px);
             transition: all 0.5s ease-in-out;
             margin: 0 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
         .image-container img {
             max-width: 90%;
@@ -35,10 +40,29 @@
     </style>
 </head>
 <body>
-    <div class="image-container"><img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330939858843340891/image.png?ex=678fcdd6&is=678e7c56&hm=a546348c0c69bbed44cca367cbc701d8353c93828058b64b95db190b3ba19cd3&"></div>
-    <div class="image-container"><img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330939917777371237/image.png?ex=678fcde4&is=678e7c64&hm=18c0e7ba31d6907843fd3c4ace62222ba621a35a8e7ce88d48444bd914062d6e&" alt="Bild 2"></div>
-    <div class="image-container"><img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330940013625741312/image.png?ex=678fcdfa&is=678e7c7a&hm=4736aba22a99570d1d872ae8100a1b93e906cd7e5eaca4f1932d0ea87467acb2&" alt="Bild 3"></div>
-    <div class="image-container"><img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330940055661051936/image.png?ex=678fce04&is=678e7c84&hm=b9a103b6b7b5142e807443db3f7b0ecf3aff123a1f4253f59c5ec415275da210&" alt="Bild 4"></div> <div class="image-container"><img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330904754573934592/image.png?ex=678fad24&is=678e5ba4&hm=6890928aff3de1eeb9114bb4cca8054e9c23226f884da4b636674a7aa4042e3f&" alt="Bild 8"></div>
+    <div class="image-container"></div>
+    <img src="https://static.thenounproject.com/png/54414-200.png" alt="Bild 1">
+
+    <div class="image-container"></div>
+        <img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330939858843340891/image.png?ex=678fcdd6&is=678e7c56&hm=a546348c0c69bbed44cca367cbc701d8353c93828058b64b95db190b3ba19cd3&" alt="Bild 1">
+        <p>Bild 1 Beschreibung</p>
+    </div>
+    <div class="image-container"></div>
+        <img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330939917777371237/image.png?ex=678fcde4&is=678e7c64&hm=18c0e7ba31d6907843fd3c4ace62222ba621a35a8e7ce88d48444bd914062d6e&" alt="Bild 2">
+        <p>Bild 2 Beschreibung</p>
+    </div>
+    <div class="image-container"></div>
+        <img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330940013625741312/image.png?ex=678fcdfa&is=678e7c7a&hm=4736aba22a99570d1d872ae8100a1b93e906cd7e5eaca4f1932d0ea87467acb2&" alt="Bild 3">
+        <p>Bild 3 Beschreibung</p>
+    </div>
+    <div class="image-container">
+        <img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330940055661051936/image.png?ex=678fce04&is=678e7c84&hm=b9a103b6b7b5142e807443db3f7b0ecf3aff123a1f4253f59c5ec415275da210&" alt="Bild 4">
+        <p>Bild 4 Beschreibung</p>
+    </div>
+    <div class="image-container">
+        <img src="https://cdn.discordapp.com/attachments/1100439254871572601/1330904754573934592/image.png?ex=678fad24&is=678e5ba4&hm=6890928aff3de1eeb9114bb4cca8054e9c23226f884da4b636674a7aa4042e3f&" alt="Bild 8">
+        <p>Bild 8 Beschreibung</p>
+    </div></div>
 
     <script>
         const imageContainers = document.querySelectorAll('.image-container');
